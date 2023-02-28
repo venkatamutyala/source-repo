@@ -17,4 +17,4 @@ jobs:
           repo: venkatamutyala/testing-actions
           token: ${{ secrets.PAT_TOKEN }}
           wait: "true"
-          workflow: main.yml
+          workflow: main.yaml
