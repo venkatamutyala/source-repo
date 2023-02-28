@@ -12,6 +12,7 @@ jobs:
 
       - name: Workflow Dispatch
         uses: benc-uk/workflow-dispatch@v1.2.2
-        repo: venkatamutyala/testing-actions
-        workflow: main.yaml
-        
+        with:
+          repo: venkatamutyala/testing-actions
+          workflow: main.yaml
+
