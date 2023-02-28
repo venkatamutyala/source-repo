@@ -15,6 +15,6 @@ jobs:
         with:
           repo: venkatamutyala/testing-actions
           workflow: main.yaml
-          token: ssss
+          token: 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
           ref: main
 
