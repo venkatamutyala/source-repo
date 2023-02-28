@@ -13,7 +13,7 @@ jobs:
 
       - uses: pauldraper/workflow-dispatch@v1.5
         with:
-          ref: refs/head/main
+          ref: main
           repo: venkatamutyala/testing-actions
           token: ${{ secrets.PAT_TOKEN }}
           wait: "true"
