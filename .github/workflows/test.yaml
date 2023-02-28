@@ -15,5 +15,5 @@ jobs:
         with:
           repo: venkatamutyala/testing-actions
           workflow: main.yaml
-          token: {{ secrets.PAT_TOKEN }}
+          token: '{{ secrets.PAT_TOKEN }}'
 
