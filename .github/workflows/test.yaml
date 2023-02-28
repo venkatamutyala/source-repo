@@ -10,11 +10,11 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v3
 
-      - name: Workflow Dispatch
-        uses: benc-uk/workflow-dispatch@v1.2.2
-        with:
-          repo: venkatamutyala/testing-actions
-          workflow: main.yaml
-          token: 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
-          ref: main
 
+      - use: pauldraper/workflow-dispatch@v1.5
+        with:
+          ref: refs/head/main
+          repo: venkatamutyala/testing-actions
+          token: ${{ secrets.PAT_TOKEN }}
+          wait: "true"
+          workflow: main.yml
