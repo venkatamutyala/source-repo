@@ -17,4 +17,5 @@ jobs:
           repo: venkatamutyala/testing-actions
           token: ${{ secrets.PAT_TOKEN }}
           wait: "true"
+          inputs: '{ "manifest_to_update": "test-app-values.yaml", "tag":"${{ github.sha }}" }''
           workflow: main.yaml
