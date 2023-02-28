@@ -7,8 +7,9 @@ jobs:
     name: Push Docker image to Docker Registry
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the repo
-        uses: actions/checkout@v3
+
+      ### Build and Publish Image steps go here......
+
 
 
       - uses: pauldraper/workflow-dispatch@v1.5
